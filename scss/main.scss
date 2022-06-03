@@ -1,0 +1,157 @@
+.building {
+    background: #FFFFFF;
+    box-shadow: 9px 9px 35px rgba(56, 11, 113, 0.1);
+    border-radius: 10px;
+    padding: 100px 80px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 144px;
+}
+.building_effective {
+    width: 470px;
+    margin-right: 90px;
+    span {
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 30px;
+        color: #F4AB00;
+        margin-bottom: 20px;
+        display: block;
+    }
+    h2 {
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 42px;
+        line-height: 56px;
+        color: #2C1258;
+        margin-bottom: 26px;
+    }
+    p {
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 34px;
+        color: #604B83;
+    }
+}
+.building_fly {
+    .plane {
+        display: flex;
+        margin-bottom: 66px;
+        &:last-child {
+            margin-bottom: 0;
+        }
+        img {
+            margin-right: 24px;
+        }
+        ul {
+            width: 280px;
+            li {
+                font-family: 'Nunito';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 19px;
+                line-height: 30px;
+                color: #2C1258;
+                margin-bottom: 10px;
+                &:last-child {
+                    font-family: 'Nunito';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 28px;
+                    color: #604B83;
+                }
+            }
+        }
+    }
+}
+// ------------appear and reasons--------------
+.appear {
+    display: flex;
+    margin-bottom: 149px;
+    img {
+        margin-right: 80px;
+    }
+    .building_effective {
+        margin-right: 0;
+        p {
+            margin-bottom: 25px;
+        }
+        .appear_list {
+            display: flex;
+            ul {
+                &:first-child {
+                    margin-right: 37px;
+                }
+                li {
+                    margin-bottom: 14px;
+                    font-family: 'Nunito';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 28px;
+                    color: #2C1258;
+                    display: flex;
+                    align-items: center;
+                    &:last-child{
+                        margin-bottom: 0;
+                    }
+                    svg {
+                        margin-right: 19px;
+                    }
+                }
+            }
+        }
+    }
+}
+.appear:last-child {
+    flex-direction: row-reverse;
+    margin-bottom: 80px;
+    img {
+        margin-right: 0;
+        position: relative;
+        bottom: 20px;
+    }
+    .building_effective {
+        margin-right: 50px;
+        width: 535px;
+        .percent {
+            display: flex;
+            justify-content: space-between;
+            .percent_download {
+                display: flex;
+                background: #F6F1FF;
+                border-radius: 10px;
+                padding: 25px 60px 25px 25px;
+                img {
+                    margin-right: 21px;
+                    position: static;
+                }
+                ul {
+                    li {
+                        font-family: 'Nunito';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 28px;
+                        line-height: 36px;
+                        color: #2C1258;
+                        &:last-child {
+                            font-family: 'Nunito';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 15px;
+                            line-height: 28px;
+                            color: #2C1258;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+// -----------conversion---------------

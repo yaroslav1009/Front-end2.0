@@ -1,0 +1,20 @@
+@import "reset.scss";
+@import "header.scss";
+@import "main.scss";
+@font-face {
+    font-family: "Nunito";
+    src: url(/fonts/Nunito-VariableFont_wght.ttf);
+}
+
+.container {
+    max-width: 1160px;
+    margin: auto;
+    padding: 0 15px;
+}
+.violet_background{
+    position: absolute;
+    z-index: -1;
+    img {
+        width: 100%;
+    }
+}
